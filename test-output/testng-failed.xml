@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="menubasedrole(failed)">
+    <parameter name="author" value="vaishnavi"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.spectrumAdminTestRunner.MenuBasedRole">
+        <methods>
+          <include name="checkstatus"/>
+          <include name="browserlogin"/>
+          <include name="initiatlizeExtentReports"/>
+          <include name="menubased"/>
+          <include name="generateExtentReports"/>
+        </methods>
+      </class> <!-- com.spectrumAdminTestRunner.MenuBasedRole -->
+    </classes>
+  </test> <!-- menubasedrole(failed) -->
+</suite> <!-- Failed suite [Suite] -->

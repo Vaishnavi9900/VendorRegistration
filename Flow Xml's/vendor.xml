@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+  <test name="Register">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.VendorRegister">
+      <methods>
+		  <include name = "register"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

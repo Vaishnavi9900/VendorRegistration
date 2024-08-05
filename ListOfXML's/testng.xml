@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="com.Basepack.ITestListenerClass"/>
+    </listeners>
+    <!-- Include your test classes here -->
+    <test name="MyTest">
+        <classes>
+            <class name="com.TestRunner.taxactivities">
+				<methods>
+					<include name="taxapproval"></include>
+				</methods>
+            </class>
+        </classes>
+    </test>
+</suite>

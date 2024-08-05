@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+	<test name="statecreation" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.StateMaster">
+      <methods>
+		  <include name = "statemaster"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="statecreation" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.StateMaster">
+      <methods>
+		  <include name = "statecreate"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="stateupdate" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.StateMaster">
+      <methods>
+		  <include name = "stateupdate"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="statedisable" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.StateMaster">
+      <methods>
+		  <include name = "statedisable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="statedisable" enabled="true">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.StateMaster">
+      <methods>
+		  <include name = "stateenable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

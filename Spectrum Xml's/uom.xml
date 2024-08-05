@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+	<test name="uommaster" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.UnitOfMeasure">
+      <methods>
+		  <include name = "uommaster"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="uomcreation" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.UnitOfMeasure">
+      <methods>
+		  <include name = "uomCreation"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="uomupdation" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.UnitOfMeasure">
+      <methods>
+		  <include name = "uomupdate"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="uomdisabling" enabled="false">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.UnitOfMeasure">
+      <methods>
+		  <include name = "uomdisable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="uomenabling" enabled="true">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.UnitOfMeasure">
+      <methods>
+		  <include name = "uomenable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

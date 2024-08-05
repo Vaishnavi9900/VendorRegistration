@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+  <test name="usercreation" enabled="false">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumAdminTestRunner.UserCreation">
+      <methods>
+		  <include name = "usercreate"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="userupdate" enabled="false">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumAdminTestRunner.UserCreation">
+      <methods>
+		  <include name = "userupdate"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="userdisable" enabled="false">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumAdminTestRunner.UserCreation">
+      <methods>
+		  <include name = "userdisable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="userenable" enabled="true">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumAdminTestRunner.UserCreation">
+      <methods>
+		  <include name = "userenable"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+  <test name="VendorRegistartion">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.VendorRegister">
+      <methods>
+		  <include name = "register"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ExecutiveApproval">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.purchaseexecutiveApprovals">
+      <methods>
+		  <include name = "exeapproval"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="HODApproval">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.hodactivities">
+      <methods>
+		  <include name = "hodapproval"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="FinanceApproval">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.FinanceActivities">
+      <methods>
+		  <include name = "financeapproval"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="TaxApproval">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.taxactivities">
+      <methods>
+		  <include name = "taxapproval"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+   <test name="MDMApproval">
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.TestRunner.mdmactivities">
+      <methods>
+		  <include name = "mdmapproval"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

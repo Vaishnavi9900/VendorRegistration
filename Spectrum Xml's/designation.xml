@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+	 <test name="designationmaster" enabled="true">
+	  <parameter name ="browser" value="edge"/>
+	  <parameter name ="author" value="vaishnavi"/>
+    <classes>
+      <class name="com.spectrumMastersTestRunner.DesignationMaster">
+      <methods>
+		  <include name = "designationmaster"></include>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
